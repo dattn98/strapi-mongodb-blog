@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "useUnifiedTopology": true,
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "uri": "mongodb+srv://admin:admin@cluster0.yfhtr.mongodb.net/myblog?retryWrites=true&w=majority",
+        "srv": true,
+        "port": 27017,
+        "database": "myblog"
+      },
+      "options": {
+        "ssl": true,
+        "authenticationDatabase": null
+      }
+    }
+  }
+}
